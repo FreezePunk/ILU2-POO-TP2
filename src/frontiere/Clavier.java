@@ -39,5 +39,6 @@ public class Clavier {
 		} while (!(entreeCorrecte && chiffre > 0));
 		return chiffre;
 	}
+	
 
 }

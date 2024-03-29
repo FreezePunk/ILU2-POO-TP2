@@ -9,7 +9,7 @@ public class ControlAfficherMarche {
 		this.village = village;
 	}
 
-	public String[] donnerEtatMarche () {
+	public  String[] donnerEtatMarche () {
 		return village.donnerEtatMarche();
 	}
 }

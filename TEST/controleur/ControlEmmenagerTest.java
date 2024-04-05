@@ -39,7 +39,6 @@ class ControlEmmenagerTest {
 		controlEmmenager.ajouterGaulois ("Autre", 10);
 		assertFalse(controlEmmenager.isHabitant("Autre"));
 		assertFalse(controlEmmenager.isHabitant("Existe pas"));
-		
 	}
 	
 	@Test
